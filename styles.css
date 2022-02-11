@@ -161,3 +161,25 @@
     grid-row: 2/3;
     background-color: var(--main-bg);
 }
+.main-content .your-projects .project-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-content .card{
+    border-left: 6px solid #3d405b;
+    background-color: var(--link-color);
+    border-radius: 15px;
+}
+
+.main-content .your-projects .card-options .icon{
+    color: #3d405b;
+}
+
+.main-content .announcements .announcements-cards{
+    border-radius: 15px;
+}
+.main-content .a-card{
+    background-color: var(--link-color);
+}
