@@ -178,8 +178,20 @@
 }
 
 .main-content .announcements .announcements-cards{
-    border-radius: 15px;
+    display: grid;
+
 }
 .main-content .a-card{
     background-color: var(--link-color);
+    border-bottom: 4px solid black;
+}
+
+.main-content .a-card-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-content .a-card-3{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
