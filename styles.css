@@ -79,11 +79,12 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
     background-color: var(--header-bg);
+    padding: 0px;
 }
 
 .header  .search-bar{
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 2fr;
+    grid-template-columns: 5fr 2fr 1fr 2fr;
     grid-column: 1/3;
     justify-items: right;
     font-family: Roboto, sans-serif;
@@ -98,7 +99,7 @@
 
 .header .search-box{
     background: #fff;
-    height: 30px;
+    height: 45px;
     border-radius: 30px;
     padding: 10px 20px;
     display: flex;
@@ -137,6 +138,8 @@
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 2fr;
     font-family: Roboto, sans-serif;
+    height: 130px;
+    width: 640px;
 }
 
 .header .user-info img{
@@ -144,17 +147,29 @@
     height: 82px;
     width: 84px;
     border-radius: 40px;
+    align-self: center;
+    justify-self: end;
+    margin-right: 10px;
 }
 
+.header .user-info .greeting{
+    font-size: 0.9rem;
+}
+
+.header .user-info .profile-name{
+    font-size: 1.4rem;
+    padding-top: 0px;
+}
 
 .header .buttons{
     display: flex;
     align-items: center;
     gap:20px;
+    width: 470px;
 }
 .header .buttons button{
     padding: 0.5rem 25px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     border-style: none;
     border-radius: 25px;
     background-color: #3d405b;
@@ -242,4 +257,25 @@
 .main-content .trending-cards{ 
     border-radius: 10px;
     background-color: var(--link-color);
+}
+
+.main-content img{
+    height: 49px;
+    width: 47px;
+    border-radius: 20px;
+}
+
+.main-content .t-card{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content .t-card img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.main-content .t-card .user{
+    font-family: Roboto, sans-serif;
 }
