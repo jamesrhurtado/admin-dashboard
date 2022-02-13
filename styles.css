@@ -89,6 +89,13 @@
     font-family: Roboto, sans-serif;
 }
 
+.header .search-bar p{
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.15rem;
+}
+
 .header .search-box{
     background: #fff;
     height: 30px;
@@ -102,7 +109,7 @@
 }
 
 .search-box:hover > .search-input{
-    width: 400px;
+    width: 500px;
 }
 
 .search-box .search-input{
@@ -120,9 +127,9 @@
 }
 
 .header .search-bar img{
-    height: 38px;
-    width: 38px;
-    border-radius: 15px;
+    height: 44px;
+    width: 46px;
+    border-radius: 20px;
 }
 
 .header .user-info{
